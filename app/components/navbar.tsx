@@ -34,7 +34,7 @@ const Navbar = () => {
           />
         )}
         {isNavbarOpen && (
-          <div className="absolute top-24 left-0 w-full h-96 bg-amber-50 flex flex-col items-center justify-center gap-4">
+          <div className="absolute top-24 left-0 w-full h-full bg-amber-50 flex flex-col items-center justify-center gap-4 z-50">
             {navbarButtonNames.map((name) => (
               <button
                 key={name}
