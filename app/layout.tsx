@@ -18,7 +18,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={`${roboto.className} bg-amber-50 `}>
+      <body className={`${roboto.className} bg-white  md:bg-gradient-to-b md:from-amber-50 md:to-white `}>
         <Navbar />
         {children}
         <Footer />

@@ -10,7 +10,7 @@ import { Trophy, Tunnel, Tv } from "iconoir-react";
 const Hero = () => {
   return (
     <div className="relative flex flex-col w-full h-auto">
-      <span className="absolute right-0 bottom-0 -z-10 block border-l-transparent border-t-transparent border-x-[806px] border-y-[424px] border-amber-100 w-0 h-0 "></span>
+      <span className="absolute right-0 bottom-0 -z-10 block border-l-transparent border-t-transparent border-x-[806px] border-y-[666px] md:border-y-[424px] border-amber-100 w-0 h-0 "></span>
       <div className="flex flex-col md:flex-row justify-between w-full gap-20 p-20">
         <div className="flex flex-col gap-12 max-w-[714px] max-md:items-center max-md:text-center ">
           <h1 className="text-7xl font-extrabold text-slate-900">Collectible Sneakers</h1>
@@ -22,14 +22,14 @@ const Hero = () => {
             <button className="border-2 border-amber-900 rounded-lg p-4 w-[179px] hover:border-amber-700 hover:text-amber-700">
               Sign up now
             </button>
-            <button className="hover:text-amber-700 flex items-center gap-2 px-3 py-2 ">
+            <button className="hover:text-amber-700 flex items-center gap-2 px-3 py-2 w-[179px] ">
               <Image src={watchSvg} alt="Shoe" width={30} height={30} />
               <span>Watch Demo</span>
             </button>
           </div>
         </div>
         <div className="flex flex-col gap-10">
-          <Image src={shoeSvg} alt="Shoe" width={600} height={600} />
+          <Image src={shoeSvg} alt="Shoe" className="min-w-64" width={600} height={600} />
         </div>
       </div>
       {/* BADGES */}
