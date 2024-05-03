@@ -1,6 +1,6 @@
 import React from "react";
 import Hero from "./components/hero";
-import BestOfTheBest from "./components/bestOfTheBestSection";
+import BestOfTheBest from "./components/bestOfTheBest";
 import JoinUs from "./components/joinUs";
 
 const Home = () => {
