@@ -3,6 +3,7 @@ export interface BestOfBestCardProps {
   title: string;
   description: string;
 }
+
 export interface LoveUsCardProps {
   logo: string;
   companyName: string;
@@ -10,4 +11,10 @@ export interface LoveUsCardProps {
   avatar: string;
   userName: string;
   userTitle: string;
+}
+
+export interface collectionDataProps {
+  title: string;
+  icon: string;
+  content: string;
 }

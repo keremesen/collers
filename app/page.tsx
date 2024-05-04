@@ -3,6 +3,7 @@ import Hero from "./components/hero";
 import BestOfTheBest from "./components/bestOfTheBest";
 import JoinUs from "./components/joinUs";
 import LoveUs from "./components/loveUs";
+import Collection from "./components/collection";
 
 const Home = () => {
   return (
@@ -11,6 +12,7 @@ const Home = () => {
       <BestOfTheBest />
       <JoinUs />
       <LoveUs />
+      <Collection />
     </div>
   );
 };
