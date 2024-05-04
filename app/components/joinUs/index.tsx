@@ -6,7 +6,7 @@ import tickSvg from "@/app/assets/tick.svg";
 const JoinUs = () => {
   return (
     <div className="flex items-center justify-center h-auto 2xl:h-[816px] py-40 px-20 ">
-      <div className="flex flex-col 2xl:flex-row p-10 gap-10 bg-white rounded-[30px] shadow-xl shadow-[#0000001A] h-auto 2xl:h-[496px] w-4/5 max-w-[1280px] min-w-[361px] ">
+      <div className="flex flex-col 2xl:flex-row p-10 gap-10 bg-white rounded-[30px] shadow-xl h-auto 2xl:h-[496px] w-4/5 max-w-[1280px] min-w-[361px] ">
         <div className="flex flex-col gap-6 max-2xl:items-center max-2xl:text-center justify-center">
           <h2 className="text-slate-900 font-bold lg:font-extrabold text-[32px] lg:text-[56px]">
             Why join us
