@@ -9,7 +9,7 @@ const BestOfTheBest = () => {
     <div className="flex flex-col bg-slate-900 h-auto gap-20 p-20 ">
       {/* TITLE */}
       <div className="flex flex-col flex-wrap lg:flex-row max-lg:items-center max-lg:text-center justify-between gap-20">
-        <h1 className="text-white font-bold text-[32px] md:font-extrabold md:text-[56px] ">
+        <h1 className="text-white font-bold text-[32px] md:font-extrabold md:text-[56px] md:leading-[61.6px] leading-[35.2px] ">
           The Best Of The Best
         </h1>
         <button className="border-2 border-white text-white rounded-lg px-5 py-6 w-[233px] h-16 flex items-center justify-center font-bold text-2xl">

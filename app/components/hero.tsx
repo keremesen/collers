@@ -13,8 +13,8 @@ const Hero = () => {
       <span className="absolute right-0 bottom-0 -z-10 block border-l-transparent border-t-transparent border-x-[806px] border-y-[666px] md:border-y-[424px] border-amber-100 w-0 h-0 "></span>
       <div className="flex flex-col md:flex-row justify-between w-full gap-20 p-20">
         <div className="flex flex-col gap-12 max-w-[714px] max-md:items-center max-md:text-center ">
-          <h1 className="text-7xl font-extrabold text-slate-900">Collectible Sneakers</h1>
-          <p className="text-lg font-normal">
+          <h1 className="text-7xl font-extrabold text-slate-900 leading-[61.6px] md:leading-[79.2px]">Collectible Sneakers</h1>
+          <p className="text-lg font-normal leading-[28.8px]">
             Sit elit feugiat turpis sed integer integer accumsan turpis. Sed suspendisse nec lorem mauris.
             Pharetra, eu imperdiet ipsum ultrices amet.
           </p>
@@ -39,8 +39,8 @@ const Hero = () => {
             <Image src={trophyRectangle} alt="Shoe" className="absolute left-8" width={64} height={64} />
             <Trophy color="#7c2d12" width={64} height={64} />
           </span>
-          <h3 className="text-xl font-medium">Nibh viverra</h3>
-          <p className="text-lg font-normal">
+          <h3 className="text-xl font-medium leading-[22px] ">Nibh viverra</h3>
+          <p className="text-lg font-normal leading-[28.8px]">
             Sit bibendum donec dolor fames neque vulputate non sit aliquam. Consequat turpis natoque leo,
             massa.
           </p>
@@ -56,8 +56,8 @@ const Hero = () => {
             />
             <Tunnel color="#7c2d12" width={64} height={64} />
           </span>
-          <h3 className="text-xl font-medium">Cursus amet</h3>
-          <p className="text-lg font-normal">
+          <h3 className="text-xl font-medium leading-[22px]">Cursus amet</h3>
+          <p className="text-lg font-normal leading-[28.8px]">
             Sit bibendum donec dolor fames neque vulputate non sit aliquam. Consequat turpis natoque leo,
             massa.
           </p>
@@ -67,8 +67,8 @@ const Hero = () => {
             <Image src={tvRectangle} alt="Shoe" className="absolute left-10 -top-2 " width={52} height={52} />
             <Tv color="#7c2d12" width={64} height={64} />
           </span>
-          <h3 className="text-xl font-medium">Ipsum fermentum</h3>
-          <p className="text-lg font-normal">
+          <h3 className="text-xl font-medium leading-[22px]">Ipsum fermentum</h3>
+          <p className="text-lg font-normal leading-[28.8px]">
             Sit bibendum donec dolor fames neque vulputate non sit aliquam. Consequat turpis natoque leo,
             massa.
           </p>

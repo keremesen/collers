@@ -8,10 +8,10 @@ const JoinUs = () => {
     <div className="flex items-center justify-center h-auto 2xl:h-[816px] py-40 px-20 ">
       <div className="flex flex-col 2xl:flex-row p-10 gap-10 bg-white rounded-[30px] shadow-xl h-auto 2xl:h-[496px] w-4/5 max-w-[1280px] min-w-[361px] ">
         <div className="flex flex-col gap-6 max-2xl:items-center max-2xl:text-center justify-center">
-          <h2 className="text-slate-900 font-bold lg:font-extrabold text-[32px] lg:text-[56px]">
+          <h2 className="text-slate-900 font-bold lg:font-extrabold text-[32px] lg:text-[56px] md:leading-[61.6px] leading-[35.2px]">
             Why join us
           </h2>
-          <ul className=" flex flex-col text-left font-normal text-slate-900 text-[16px] lg:text-xl lg:min-w-max ">
+          <ul className=" flex flex-col text-left font-normal text-slate-900 text-[16px] lg:text-xl lg:min-w-max leading-[22.4px] md:leading-[36px] ">
             <li className="flex gap-2 items-start justify-start">
               <Image src={tickSvg} alt="tick" width={24} height={24} />
               <p>Est et in pharetra magna adipiscing ornare aliquam.</p>

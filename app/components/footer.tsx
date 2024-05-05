@@ -1,6 +1,6 @@
 import React from "react";
 import { footerButtonNames } from "../constants";
-import { Youtube, Facebook, Twitter, Instagram, Linkedin, Language } from "iconoir-react";
+import { Language } from "iconoir-react";
 import Image from "next/image";
 import appStoreSvg from "@/app/assets/appStore.svg";
 import playStoreSvg from "@/app/assets/playStore.svg";

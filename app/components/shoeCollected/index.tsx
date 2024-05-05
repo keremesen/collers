@@ -12,8 +12,12 @@ const ShoeCollected = () => {
         </div>
       </div>
       <div className="flex flex-col justify-center items-center text-amber-50 z-50">
-        <h1 className=" font-extrabold text-[56px] md:text-[96px]">11,658,467</h1>
-        <h1 className=" font-extrabold text-[32px] md:text-[56px]">Shoes Collected</h1>
+        <h1 className=" font-extrabold text-[56px] md:text-[96px] leading-[52.8px] md:leading-[105.6px]">
+          11,658,467
+        </h1>
+        <h1 className=" font-extrabold text-[32px] md:text-[56px] leading-[35.2px] md:leading-[61.6px]">
+          Shoes Collected
+        </h1>
       </div>
     </div>
   );

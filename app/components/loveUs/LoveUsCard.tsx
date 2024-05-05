@@ -16,7 +16,7 @@ const LoveUsCard: React.FC<LoveUsCardProps> = ({
         <Image src={logo} alt="logo" />
         <h6 className="font-bold text-2xl text-slate-600"> {companyName} </h6>
       </div>
-      <p className="font-normal text-[16px] lg:text-2xl text-black">{description}</p>
+      <p className="font-normal text-[16px] lg:text-2xl text-black leading-[38.4px]">{description}</p>
       <div className="flex  pt-4 gap-4">
         <Image src={avatar} alt="avatar" />
         <div className="flex flex-col justify-center">
