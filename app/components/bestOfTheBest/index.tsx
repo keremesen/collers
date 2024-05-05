@@ -6,9 +6,9 @@ import { bestOfBestCardsData } from "@/app/constants";
 
 const BestOfTheBest = () => {
   return (
-    <div className="flex flex-col bg-slate-900 h-auto gap-20 p-20 ">
+    <div className="flex flex-col bg-slate-900 h-auto gap-8 2xl:gap-20 py-12 px-4 2xl:p-20">
       {/* TITLE */}
-      <div className="flex flex-col flex-wrap lg:flex-row max-lg:items-center max-lg:text-center justify-between gap-20">
+      <div className="flex flex-col flex-wrap lg:flex-row max-lg:items-center max-lg:text-center justify-between gap-8 2xl:gap-20 py-12 px-4 2xl:p-20">
         <h1 className="text-white font-bold text-[32px] md:font-extrabold md:text-[56px] md:leading-[61.6px] leading-[35.2px] ">
           The Best Of The Best
         </h1>

@@ -11,7 +11,7 @@ const LoveUsCard: React.FC<LoveUsCardProps> = ({
   userTitle,
 }) => {
   return (
-    <div className="flex flex-col gap-4 p-8 w-[333px] h-[352px] lg:h-[430px] lg:w-[384px] bg-white border border-slate-200 rounded-[20px] shadow-lg">
+    <div className="flex flex-col gap-2 p-6 lg:gap-4 lg:p-8 w-[333px] h-[364px] lg:h-[430px] lg:w-[384px] bg-white border border-slate-200 rounded-[20px] shadow-lg">
       <div className="flex items-center gap-2 py-4">
         <Image src={logo} alt="logo" />
         <h6 className="font-bold text-2xl text-slate-600"> {companyName} </h6>

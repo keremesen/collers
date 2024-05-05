@@ -13,7 +13,7 @@ const LoveUs = () => {
   const swiperRef = useRef<SwiperRef>();
 
   return (
-    <div className="flex flex-col relative gap-20 p-20 h-[832px] w-full">
+    <div className="flex flex-col relative gap-8 py-12 px-4 lg:gap-20 lg:p-20 h-[832px] w-full">
       <div className="flex justify-center lg:justify-between items-center h-[62px] w-full gap-12">
         <h2 className=" font-bold text-[32px] lg:font-extrabold lg:text-[56px] text-slate-900 md:leading-[61.6px] leading-[35.2px]">
           Because they love us
